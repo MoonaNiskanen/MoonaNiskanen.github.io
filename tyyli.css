@@ -1,1 +1,52 @@
+body {    
+    background-color: beige;
+     color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16xp;
+margin: 0;
+}
 
+header {
+text-align: center;
+padding-top: 30xp;
+
+}
+
+.alisivu-sisalto {
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}          
+
+/*fontit*/
+@font-face {
+    font-family: otsikko;
+    src: url(?);
+}
+
+h1 {
+    color: black
+}
+
+h2, h3 {
+    font-family: otsikko, 'sans-serif';
+}
+.esittely {
+    padding-left: 20px;
+}
+
+/*päävalikko*/
+nav a {
+    background: rgb(251, 251, 202);
+    font-family: otsikko, 'sans serif';
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid rgb(232, 173, 203);
+}
+
+nav a:hover {
+    color: bisque;
+    background-color: blanchedalmond;
+}
