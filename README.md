@@ -2,7 +2,7 @@
 # Nettisivu Verhoomo Tapiola
 # Asennus
 1. Lataa tiedostot
-2. Avaa 'tapiola.html' selaimessa
+2. Avaa 'etusivu.html' selaimessa
 
 ## Käyttö
 Muokkaa 'etusivu.html' , 'palvelut.html' , 'yhteys.html' ja tyylit.css' 
