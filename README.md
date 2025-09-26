@@ -5,7 +5,7 @@
 2. Avaa 'tapiola.html' selaimessa
 
 ## Käyttö
-Muokkaa 'tapiola.html' ja tyylit.css'
+Muokkaa 'etusivu.html' , 'palvelut.html' , 'yhteys.html' ja tyylit.css' 
 
 ## Fonttiehdotuksia
 Alan sans, oswald, noto sans, merriweather, libre baskerville, bungee, alfa slab one, caprasimo, Spectral
