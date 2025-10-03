@@ -109,6 +109,43 @@ footer {
 
 /* PALVELUT OMA TYYLI */
 
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap; /* skaalaa pienillä näytöillä */
+}
+
+.box-teksti1 {
+    flex: 1 1 300px;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.box-teksti {
+  flex: 1 1 300px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.box-teksti h2 {
+  margin-top: 0;
+}
+
+.image-box {
+  flex: 1 1 300px;
+  padding: 20px;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 .ota-yhteys-painike {
     display: inline-block;
     padding: 12px 24px;
@@ -129,3 +166,17 @@ footer {
 }
 
 /* YHTEYS OMA TYYLI */
+
+.yhteystietoalue {
+    display: flex;
+    justify-content: center; /* Keskittää vaakasuunnassa */
+    padding: 20px;
+}
+
+.tekstiteksti {
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    max-width: 600px; /* Tekstin leveys */
+    text-align: center; /* Keskittää tekstin sisällä */
+}
