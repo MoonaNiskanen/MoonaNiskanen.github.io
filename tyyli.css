@@ -126,6 +126,19 @@ footer {
     transform: scale(1.05);
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
 /* PALVELUT OMA TYYLI */
 
 
