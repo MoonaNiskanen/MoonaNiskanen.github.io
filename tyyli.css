@@ -107,6 +107,25 @@ footer {
 
 /* ETUSIVUN OMA TYYLI */
 
+.ota-yhteys-painike {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #111111; /* tumma kontrastiväri */
+    color: #E8E0D4; /* sama vaalea sävy kuin navigointipainikkeissa */
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #E8E0D4; /* vaalea reunus kontrastina tummalle taustalle */
+    transition: background-color 0.3s, transform 0.2s, color 0.3s;
+}
+
+.ota-yhteys-painike:hover {
+    background-color: #333333; /* hieman vaaleampi tumma hoverissa */
+    color: #ffffff; /* teksti muuttuu kirkkaammaksi hoverissa */
+    transform: scale(1.05);
+}
+
 /* PALVELUT OMA TYYLI */
 
 
@@ -179,4 +198,23 @@ footer {
     font-size: 20px;
     max-width: 600px; /* Tekstin leveys */
     text-align: center; /* Keskittää tekstin sisällä */
+}
+
+.ota-yhteys-painike {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #111111; /* tumma kontrastiväri */
+    color: #E8E0D4; /* sama vaalea sävy kuin navigointipainikkeissa */
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #E8E0D4; /* vaalea reunus kontrastina tummalle taustalle */
+    transition: background-color 0.3s, transform 0.2s, color 0.3s;
+}
+
+.ota-yhteys-painike:hover {
+    background-color: #333333; /* hieman vaaleampi tumma hoverissa */
+    color: #ffffff; /* teksti muuttuu kirkkaammaksi hoverissa */
+    transform: scale(1.05);
 }
