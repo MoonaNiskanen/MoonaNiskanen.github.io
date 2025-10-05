@@ -123,6 +123,34 @@ footer {
 
 /* ETUSIVUN OMA TYYLI */
 
+h2 {
+    position: static;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #f7b757;
+    text-shadow:#d9a04a
+}
+
+h3 {
+    position: static;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    color: black;
+    text-shadow:#f0d1a3
+}
+
+p {
+    position: static;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 18px;
+    color: #111111;
+}
 
 .centered-area {
   display: flex;
@@ -131,7 +159,7 @@ footer {
   align-items: center;       /* vaakakeskitys */
   height: 100vh;             /* koko näkymän korkeus */
   text-align: center;
-  background-color: #f5f5dc; /* vaalea beige tausta */
+ 
 }
 
 .centered-area h1,
