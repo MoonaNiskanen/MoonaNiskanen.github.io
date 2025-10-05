@@ -107,6 +107,24 @@ footer {
 
 /* ETUSIVUN OMA TYYLI */
 
+
+.centered-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* pystykeskitys */
+  align-items: center;       /* vaakakeskitys */
+  height: 100vh;             /* koko näkymän korkeus */
+  text-align: center;
+  background-color: #f5f5dc; /* vaalea beige tausta */
+}
+
+.centered-area h1,
+.centered-area p {
+  margin: 10px 0;
+}
+
+
+
 .ota-yhteys-painike {
     display: inline-block;
     padding: 12px 24px;
@@ -125,6 +143,7 @@ footer {
     color: #ffffff; /* teksti muuttuu kirkkaammaksi hoverissa */
     transform: scale(1.05);
 }
+
 
 .image-grid {
   display: grid;
