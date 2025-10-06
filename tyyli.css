@@ -5,7 +5,7 @@
     width: 100%;
     max-width: 100%;
     height: 700px;
-    background-image: url('välineet.png');
+    background-image: url('sakset.JPG');
     background-size: cover;
     background-position: center;
 }
@@ -15,7 +15,7 @@
     width: 100%;
     max-width: 100%;
     height: 700px;
-    background-image: url('herokuva.jpeg');
+    background-image: url('Mies.JPG');
     background-size: cover;
     background-position: center;
 }
@@ -25,7 +25,7 @@
     width: 100%;
     max-width: 100%;
     height: 700px;
-    background-image: url('Designer.png');
+    background-image: url('yhteyssivun.JPG');
     background-size: cover;
     background-position: center;
 }
